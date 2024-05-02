@@ -7,5 +7,5 @@ app.get("/", (req, res)=>{
 
 
 app.listen(3000, ()=>{
-    console.log("server is listing to port 8080");
+    console.log("server is listing to port 3000");
 })
