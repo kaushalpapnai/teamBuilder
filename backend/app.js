@@ -17,6 +17,13 @@ app.get("/", (req, res)=>{
     res.send("Hello");
 })
 
+//user route
+app.get("/user/:id", async (req,res)=>{
+    let {id} = req.params;
+    let user = await Detail.findById(id);
+    res.render("index.ejs", {user});
+})
+
 
 app.listen(3000, ()=>{
     console.log("server is listing to port 3000");
