@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const path = require("path");
 const mongoose = require("mongoose");
 const Detail = require("./models/detail.js");
 
@@ -12,6 +13,12 @@ main()
 async function main() {
   await mongoose.connect('mongodb://127.0.0.1:27017/teambuilder');
 }
+
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+app.use(express.urlencoded({extended: true}));
+
 
 app.get("/", (req, res)=>{
     res.send("Hello");
