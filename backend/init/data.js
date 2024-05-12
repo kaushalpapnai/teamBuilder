@@ -1,7 +1,7 @@
 const sampleDetails = [
     {
       name: "Alice Johnson",
-      image: "https://scontent.fdel81-1.fna.fbcdn.net/v/t39.30808-6/436302836_1754130258407569_6775130024291796226_n.jpg?_nc_cat=110&_nc_cb=99be929b-2300bf0b&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R3DCNA059iAQ7kNvgE30Q5L&_nc_oc=AdgjZEdlFMA88iNVtZ631BatuIR_sYzmdx9CoHxDyVNtYjc8VF6nWJA63z3FW8Xbdko&_nc_ht=scontent.fdel81-1.fna&oh=00_AfCkRV0SJM1kfmwqVW2ip_Tx3lr8IbBwhY5UZFLB8-eu6g&oe=663A4279",
+      image: "https://cdn.pixabay.com/photo/2023/11/10/02/30/woman-8378634_1280.jpg",
       introduction: "I am currently pursuing my studies in Computer Engineering.",
       course: "Btech",
       status: "Student",
@@ -15,7 +15,7 @@ const sampleDetails = [
     },
     {
       name: "Bob Smith",
-      image: "https://scontent.fdel81-1.fna.fbcdn.net/v/t39.30808-6/393269191_1650508795436383_6208339786857079445_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M6urIbE2UGkQ7kNvgHnzBat&_nc_ht=scontent.fdel81-1.fna&oh=00_AfDjqboW8G92lO2o6JTloErr2xVEphT1ZX3YN4z-8CwkMA&oe=663A3FA4",
+      image: "https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg",
       introduction: "I am a professional web developer with over 5 years of experience.",
       course: "Btech",
       status: "Professional",
@@ -29,7 +29,7 @@ const sampleDetails = [
     },
     {
       name: "Eva Martinez",
-      image: "https://scontent.fdel81-1.fna.fbcdn.net/v/t39.30808-6/417397552_122124193142102036_5431118906742104056_n.jpg?stp=dst-jpg_s960x960&_nc_cat=102&_nc_cb=99be929b-2300bf0b&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R2wyrk-NwuEQ7kNvgFwgjYq&_nc_ht=scontent.fdel81-1.fna&oh=00_AfAQKQYPvrn0lVXoPZwQ0Dj15LoSxcL5KLT570y-okFInA&oe=663A3C50",
+      image: "https://cdn.pixabay.com/photo/2016/11/29/03/36/woman-1867093_1280.jpg",
       introduction: "I am studying Marketing and have a keen interest in digital marketing strategies.",
       course: "Btech",
       status: "Student",
@@ -43,7 +43,7 @@ const sampleDetails = [
     },
     {
       name: "Michael Brown",
-      image: "https://scontent.fdel81-1.fna.fbcdn.net/v/t1.6435-9/47576173_342463033235524_3073709219581526016_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_SCBxMkHnz4Q7kNvgFWQ7uQ&_nc_ht=scontent.fdel81-1.fna&oh=00_AfDbSDApEBGN9P9A6IeMikOCKNy1CdN3DsAM1NiU86n2KQ&oe=665BF15B",
+      image: "https://cdn.pixabay.com/photo/2022/01/07/01/21/girl-6920625_1280.jpg",
       introduction: "I work as a software engineer at a leading tech company.",
       course: "Btech",
       status: "Professional",
@@ -57,7 +57,7 @@ const sampleDetails = [
     },
     {
       name: "Sophia Lee",
-      image: "https://scontent.fdel81-1.fna.fbcdn.net/v/t39.30808-1/298999442_617556333068149_3127618558057362578_n.jpg?stp=dst-jpg_p200x200&_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=13GlMhEWSn4Q7kNvgGCHdOh&_nc_ht=scontent.fdel81-1.fna&oh=00_AfDihe-_qcmnClJ1aq_mjbKA4ExMiKs3tybff0QFzuA5lg&oe=663A378C",
+      image: "https://cdn.pixabay.com/photo/2023/12/26/17/38/ai-generated-8470716_1280.png",
       introduction: "I am a student passionate about environmental science.",
       course: "Btech",
       status: "Student",
